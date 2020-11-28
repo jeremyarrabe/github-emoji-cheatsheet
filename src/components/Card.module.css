@@ -33,7 +33,7 @@
   justify-content: space-evenly;
   border-radius: 15px;
   overflow: hidden;
-
+  transition: all 200ms;
   padding: 0 0.5rem;
 }
 

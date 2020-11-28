@@ -9,7 +9,10 @@ const Footer = () => {
       </p>
       <p>
         Are we missing something?
-        <a className={styles.contribute} href="https://github.com/jeremeheh">
+        <a
+          className={styles.contribute}
+          href="https://github.com/jeremeheh/github-emoji-cheatsheet"
+        >
           Contrubute Here
         </a>
       </p>
