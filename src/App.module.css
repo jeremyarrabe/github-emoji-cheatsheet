@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.githubIcon {
+  height: 18px;
+  margin-left: 0.5rem;
+}
+
+.search {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  padding: 0 1rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  min-height: 2rem;
+}
+
+.searchIcon {
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.search input {
+  border: none;
+  background-color: var(--secondary);
+  height: 2rem;
+  color: white;
+  outline: none;
+}
+
+main {
+  min-height: 100%;
+  padding: 0 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.showCopied {
+  display: flex;
+
+  position: fixed;
+  top: 0;
+  min-width: 100vw;
+  min-height: 50px;
+  background-color: var(--secondary);
+  justify-content: space-around;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+}

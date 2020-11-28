@@ -1,0 +1,44 @@
+.card {
+  width: 50%;
+  height: 190px;
+
+  display: flex;
+  flex-direction: column;
+  font-size: 3vw;
+  border: 0.5rem solid transparent;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.cardBody {
+  height: 80%;
+  width: 100%;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  overflow: hidden;
+
+  padding: 0 0.5rem;
+}
+
+.symbol {
+  font-size: 30px;
+}
+
+.type {
+  min-width: 100%;
+  text-align: center;
+  font-size: 2.5vw;
+  text-transform: lowercase;
+}
