@@ -6,6 +6,11 @@
   flex-direction: column;
   font-size: 3vw;
   border: 0.5rem solid transparent;
+  cursor: pointer;
+}
+
+.card:active > .cardBody {
+  background-color: #807d7d;
 }
 
 .cardTitle {
@@ -41,4 +46,51 @@
   text-align: center;
   font-size: 2.5vw;
   text-transform: lowercase;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: calc(100% / 3);
+    font-size: 0.8rem;
+  }
+
+  .type {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: calc(100% / 4);
+    font-size: 0.8rem;
+    height: 250px;
+  }
+
+  .type {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    font-size: 0.7rem;
+    height: 290px;
+    border: 1.5rem solid transparent;
+  }
+
+  .type {
+    font-size: 0.8vw;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .card {
+    font-size: 0.9rem;
+    height: 325px;
+    border: 2rem solid transparent;
+  }
+
+  .type {
+    font-size: 0.7vw;
+  }
 }

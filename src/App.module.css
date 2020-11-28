@@ -12,6 +12,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100%;
+}
+
+.titleContainer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -57,15 +65,47 @@ main {
 }
 
 .showCopied {
+  position: fixed;
   display: flex;
 
-  position: fixed;
   top: 0;
-  min-width: 100vw;
+  width: 100vw;
   min-height: 50px;
   background-color: var(--secondary);
   justify-content: space-around;
   align-items: center;
   z-index: 999;
   opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 10rem;
+  }
+
+  .navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .githubIcon {
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .container {
+    padding: 0 35rem;
+  }
 }
