@@ -9,7 +9,7 @@ https://gitcomoji.vercel.app/
   - React.js
   - CCS Modules
 
-![demo](assets/demo.gif)
+![demo](assets/website.gif)
 
 ### Contributing
 
