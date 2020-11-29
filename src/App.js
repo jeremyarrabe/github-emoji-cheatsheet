@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { motion } from 'framer-motion';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import ReactGa from 'react-ga';
 import styles from './App.module.css';
 
 import { github } from './api/data';
@@ -18,6 +19,8 @@ class App extends Component {
   }
 
   componentDidMount() {
+    ReactGa.initialize('G-39S1V5W0N1');
+    ReactGa.pageview('/');
     this.setState({
       data: github.types,
     });

@@ -7,6 +7,7 @@ dependencies:
   react: 17.0.1
   react-copy-to-clipboard: 5.0.2_react@17.0.1
   react-dom: 17.0.1_react@17.0.1
+  react-ga: 3.3.0_prop-types@15.7.2+react@17.0.1
   react-helmet-async: 1.0.7_react-dom@17.0.1+react@17.0.1
   react-scripts: 4.0.1
   web-vitals: 0.2.4
@@ -9650,6 +9651,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
+  /react-ga/3.3.0_prop-types@15.7.2+react@17.0.1:
+    dependencies:
+      prop-types: 15.7.2
+      react: 17.0.1
+    dev: false
+    peerDependencies:
+      prop-types: ^15.6.0
+      react: ^15.6.2 || ^16.0 || ^17
+    resolution:
+      integrity: sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
   /react-helmet-async/1.0.7_react-dom@17.0.1+react@17.0.1:
     dependencies:
       '@babel/runtime': 7.12.5
@@ -12277,6 +12288,7 @@ specifiers:
   react: ^17.0.1
   react-copy-to-clipboard: ^5.0.2
   react-dom: ^17.0.1
+  react-ga: ^3.3.0
   react-helmet-async: ^1.0.7
   react-refresh: ^0.9.0
   react-scripts: 4.0.1
