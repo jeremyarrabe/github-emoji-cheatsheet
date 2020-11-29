@@ -18,6 +18,11 @@ class App extends Component {
   }
 
   componentDidMount() {
+    const ID = process.env.REACT_APP_MEASUREMENT_ID;
+    window.gtag('config', ID, {
+      page_title: document.title,
+      page_path: window.location.pathname + window.location.search,
+    });
     this.setState({
       data: github.types,
     });
