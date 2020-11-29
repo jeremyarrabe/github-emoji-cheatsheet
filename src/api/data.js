@@ -1,7 +1,7 @@
 export const github = {
   types: [
     {
-      title: 'inital commit',
+      title: 'initial commit',
       type: ':tada:',
       symbol: '🎉',
     },

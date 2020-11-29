@@ -52,12 +52,19 @@ class App extends Component {
     if (searchVal) {
       return data
         .filter((res) => {
-          return res.title.toLowerCase().indexOf(searchVal.toLocaleLowerCase()) !== -1;
+          return (
+            res.title.toLowerCase().indexOf(searchVal.toLocaleLowerCase()) !== -1 ||
+            res.type
+              .toLowerCase()
+              .split('_')
+              .join(' ')
+              .indexOf(searchVal.toLocaleLowerCase()) !== -1
+          );
         })
         .map((type, i) => {
           return (
             <CopyToClipboard
-              key={i}
+              key={type.title}
               text={type.type}
               onCopy={() => this.setState({ isCopied: true })}
             >
@@ -74,7 +81,7 @@ class App extends Component {
     return data.map((type, i) => {
       return (
         <CopyToClipboard
-          key={i}
+          key={type.title}
           text={type.type}
           onCopy={() => this.setState({ isCopied: true })}
         >
