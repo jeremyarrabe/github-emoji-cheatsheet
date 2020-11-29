@@ -1,7 +1,7 @@
 # Gitcomoji
 
 A cheatsheet for commit messages with emojis.
-https://gitcomoji.vercel.app/
+https://gitcomoji.space
 
 ## Tech Stack
 
