@@ -19,7 +19,7 @@ Card.propTypes = {
   title: propTypes.string.isRequired,
   symbol: propTypes.string.isRequired,
   type: propTypes.string.isRequired,
-  onClick: propTypes.func.isRequired,
+  onClick: propTypes.func,
 };
 
 export default Card;

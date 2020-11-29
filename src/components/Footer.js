@@ -13,7 +13,7 @@ const Footer = () => {
           className={styles.contribute}
           href="https://github.com/jeremeheh/github-emoji-cheatsheet"
         >
-          Contrubute Here
+          Contribute Here
         </a>
       </p>
     </div>
