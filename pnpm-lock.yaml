@@ -12,6 +12,7 @@ dependencies:
   react-scripts: 4.0.1
   web-vitals: 0.2.4
 devDependencies:
+  identity-obj-proxy: 3.0.0
   react-refresh: 0.9.0
 lockfileVersion: 5.2
 packages:
@@ -5748,7 +5749,6 @@ packages:
     resolution:
       integrity: sha512-nmT2T0lljbxdQZfspsno9hgrG3Uir6Ks5afism62poxqBM6sDnMEuPmzTq8XN0OEwqKLLdh1jQI3qyE66Nzb3w==
   /harmony-reflect/1.6.1:
-    dev: false
     resolution:
       integrity: sha512-WJTeyp0JzGtHcuMsi7rw2VwtkvLa+JyfEKJCFyfcS0+CDkjQ5lHPu7zEhFZP+PDSRrEgXa5Ah0l1MbgbE41XjA==
   /has-flag/3.0.0:
@@ -6046,7 +6046,6 @@ packages:
   /identity-obj-proxy/3.0.0:
     dependencies:
       harmony-reflect: 1.6.1
-    dev: false
     engines:
       node: '>=4'
     resolution:
@@ -12284,6 +12283,7 @@ specifiers:
   '@testing-library/react': ^11.2.2
   '@testing-library/user-event': ^12.2.2
   framer-motion: ^2.9.4
+  identity-obj-proxy: ^3.0.0
   prop-types: ^15.7.2
   react: ^17.0.1
   react-copy-to-clipboard: ^5.0.2

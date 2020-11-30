@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "identity-obj-proxy": "^3.0.0",
     "react-refresh": "^0.9.0"
   },
   "license": "MIT"
